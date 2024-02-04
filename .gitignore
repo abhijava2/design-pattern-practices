@@ -1,0 +1,18 @@
+/target/
+/.settings
+/.settings/*
+/.git/*
+/.idea/*
+# Eclipse Core      
+.project
+# JDT-specific (Eclipse Java Development Tools)     
+.classpath
+.vscode/*
+#!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
