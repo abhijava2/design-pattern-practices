@@ -3,7 +3,7 @@ package com.being.developer.creational.prototype;
 public class PrototypePatternExample {
 
     public static void main(String[] args) {
-        System.out.println();
+       System.out.println("Prototype Pattern Example !");
         Car car1 = new Car("Toyota", "Corolla", 2022);
         Car car2 = (Car) VehiclePrototype.getNewVehicle(car1);
 
