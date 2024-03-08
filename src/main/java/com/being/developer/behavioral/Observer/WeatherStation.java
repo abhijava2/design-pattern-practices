@@ -5,7 +5,7 @@ import java.util.List;
 // concrete subject impl
 public class WeatherStation implements Station {
 
-    private List<Observer> observers = new ArrayList<>();
+    private final List<Observer> observers = new ArrayList<>();
 
     private float temperature = 0;
 
